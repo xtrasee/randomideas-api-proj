@@ -1,6 +1,6 @@
-const mongoose = rerquire('mongoose');
+const mongoose = require('mongoose');
 
-const IdeaSchema = new mangoose.Schema({
+const IdeaSchema = new mongoose.Schema({
     text: {
         type: String,
         required: [true, 'Please add a text field']
